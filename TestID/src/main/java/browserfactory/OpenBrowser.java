@@ -10,7 +10,8 @@ public class OpenBrowser {
         WebDriver driver=new ChromeDriver();  
           //Launch Google.com
         driver.navigate().to("http://www.google.com");
-        //maximize the window
+        //Maximize the window
         driver.manage().window().maximize();
+        driver.close();
 	}
 }
